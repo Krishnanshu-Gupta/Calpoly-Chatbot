@@ -78,6 +78,7 @@ def writeReviews(tID):
     feedback=[]
     for clas in rating:
         feedback.append({"Class":clas[10],"Attendance":clas[0],"Clarity":clas[1],"Difficulty":clas[2],"Message":clas[11],"Difficulty Score (out of 5)":clas[14],"Quality Score (out of 5)":clas[19]})
+
     #print("\n")
     return outputExtended(feedback)
 
@@ -93,5 +94,3 @@ def outputExtended(feedback):
 
 #print(writeReviews("473490"))
 
-
-#open text file in read mode
