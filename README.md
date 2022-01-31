@@ -1,6 +1,5 @@
 # ChatbotUI Template
 A simple Python implementation of Chatbot UI for Web Service.
-**Note**: This is a slight modification of the project https://github.com/chamkank/flask-chatterbot
 ## Requirement
 - Python 3
 - Flask
